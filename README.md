@@ -54,7 +54,7 @@ aws-static-site/
 │   │── main.tf               # S3 bucket setup (private, OAI access only)
 │   │── cloudfront.tf         # CloudFront distribution setup
 │   │── outputs.tf            # Output values for website URLs
-│   │── versions.tf           # Required Terraform 
+│   │── versions.tf           # Required Terraform version
 │   │── terraform.tfvars      # Default values for variables (e.g., bucket name, AWS region)
 │── website/                  # Static website files
 │   │── index.html            # Homepage
